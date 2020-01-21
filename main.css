@@ -9,6 +9,7 @@
     color: #444;
     text-align: center;
     line-height: 1.5;
+    margin: 0;
   }
   
   nav,
@@ -23,6 +24,9 @@
     left: 0;
     right: 0;
     z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 5px;
   }
   
   header {
@@ -48,3 +52,7 @@
     margin-top: 15px;
   }
   
+  ul {
+    list-style: none;
+    padding: 0;
+  }
